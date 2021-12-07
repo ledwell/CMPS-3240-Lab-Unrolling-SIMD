@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "myblas.h"
 
+//used for faxpy5-12 - just with updated function call and file name
+
 int main( int arg, char *argv[] ) {
 	if( arg != 2 ) {
 		printf( "Usage: ./faxpyu.out N ... where N is the length of one side of the matrix\n"  );
